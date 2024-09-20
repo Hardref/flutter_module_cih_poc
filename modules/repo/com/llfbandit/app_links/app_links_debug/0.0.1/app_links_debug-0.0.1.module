@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.llfbandit.app_links",
+    "module": "app_links_debug",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-f6344b75dcf861d8bf1f1322780b8811f982e31a"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app_links_debug-0.0.1.aar",
+          "url": "app_links_debug-0.0.1.aar",
+          "size": 7211,
+          "sha512": "cbce63aa5c28f45d1f6d331fc17b1752038e1985c8de32913e1ca0422c49561321edba7fcc54ba11b40b26e8bcefb6fd2aa49471701228fcf29f736e12af3bec",
+          "sha256": "29b47ed390ab2324710799a3370dcfdd7c1cc56cf844bb678428295a80bf6af8",
+          "sha1": "c3ace48f3f63eb8f0adbbc5015093fa90fe3a3e5",
+          "md5": "6f5d39ad642026a66d18f190833bb3cc"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-f6344b75dcf861d8bf1f1322780b8811f982e31a"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.microg",
+          "module": "safe-parcel",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app_links_debug-0.0.1.aar",
+          "url": "app_links_debug-0.0.1.aar",
+          "size": 7211,
+          "sha512": "cbce63aa5c28f45d1f6d331fc17b1752038e1985c8de32913e1ca0422c49561321edba7fcc54ba11b40b26e8bcefb6fd2aa49471701228fcf29f736e12af3bec",
+          "sha256": "29b47ed390ab2324710799a3370dcfdd7c1cc56cf844bb678428295a80bf6af8",
+          "sha1": "c3ace48f3f63eb8f0adbbc5015093fa90fe3a3e5",
+          "md5": "6f5d39ad642026a66d18f190833bb3cc"
+        }
+      ]
+    }
+  ]
+}
