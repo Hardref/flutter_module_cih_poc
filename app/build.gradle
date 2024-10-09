@@ -25,9 +25,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-        profile {
-            initWith debug
-        }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -45,5 +43,5 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 
-    debugImplementation 'com.yakeey.yakeeypro.module:flutter_debug:0.0.1'
+    debugImplementation libs.flutter.debug
 }
